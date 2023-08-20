@@ -1,0 +1,35 @@
+Introduction To Operating Systems -------
+
+
+What is an operating system?
+
+-> Interface between user/program and computer hardware
+-> Operating system is not a single program (It is a collection of a whole lot of programs)
+   All of these programs together contributes to a kernel.
+-> Resource manager
+-> Control Program <System s/w>
+-> Set of utilities to simplify application development
+
+In the course of operating system we will learn the operating systems considering the von neumann architecture. Though when we change the architecture of the system, the operating system changes. A particular operating system can only work for a certain kind of architecture.
+
+Kernel is the Operating System core. It is the actual operating system.
+We as users/programmers never directly communicate with kernel. There is a command interface between us and kernel. (CLI or GUI).
+
+levels -
+
+1. users/programmers
+2. command interface
+3. kernel
+4. hardware
+
+programmers also user SCI(system call interface)/API(application programming interface) to communicate with the OS and getting special services.
+
+
+Goals of operating system -
+
+1. convenience -> easy to use
+2. efficiency -> effective utilisation of hardware and software utilities
+3. Scalability -> easy to add on and delete features
+4. Robustness -> should be able to deliver services even when there are certain problems
+5. Reliability
+6. Portability -> Should be able to work for different processors etc
