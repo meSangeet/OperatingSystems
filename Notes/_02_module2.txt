@@ -1,0 +1,31 @@
+Types of Operating Systems ------
+
+1. Uniprogrammed OS
+2. Multiprogrammed OS
+
+
+Booting -> When we boot an OS, the OS is loaded from the harddisk to the main memory, this process is called booting.
+
+When an OS is loaded in the main memory, the main memory is divided into two parts. One area is called S area (this area contains the OS). Other area is called U-area (this area contains the programmers program).
+
+In uniprogrammed OS the u area can only contain one process at a time, and one process is not enough to keep the CPU occupied. So one of the biggest drawbacks of the uniprogrammed OS is the idleness of CPU.
+
+Introduction to process:
+
+A process is a program in execution or a process is an ‘active’ entity, as opposed to a program, which is considered to be a ‘passive’ entity.
+A single program can create many processes when running multiple times; when we open a .exe or binary file multiple times, multiple instances begin (multiple processes are created).
+
+For example,
+When we write a program in C or C++ and compile it, the compiler creates binary code. The original code and binary code are both programs. When we actually run the binary code, it becomes a process.
+
+What does a process look like in memory?
+
+Text Section: A Process, sometimes known as the Text Section, also includes the current activity represented by the value of the Program Counter.
+
+Stack: The Stack contains the temporary data such as function parameters, returns addresses, and local variables.
+
+Data Section: Contains the global variable.
+
+Heap Section: Dynamically allocated memory to process during its run time.
+Refer to this for more details on sections.
+
